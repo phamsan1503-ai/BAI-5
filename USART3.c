@@ -92,7 +92,7 @@ void USART1_IRQHandler(void)
         if(strcmp((char*)rx_buffer, "ON") == 0)
         {
             GPIO_ResetBits(LED_PORT, LED_PIN); 
-            rx_index = 0; // reset buffer
+            rx_index = 0;
         }
         else if(strcmp((char*)rx_buffer, "OFF") == 0)
         {
@@ -103,3 +103,4 @@ void USART1_IRQHandler(void)
         USART_ClearITPendingBit(USART1, USART_IT_RXNE);
     }
 }
+
