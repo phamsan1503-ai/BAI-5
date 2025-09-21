@@ -14,7 +14,7 @@ _Bài tập yêu cầu:_
 
 - Sử dụng ngắt để nhận chuỗi dữ liệu
 
-***File code kết quả: [Link](https://github.com/NguyenVuTatKhang/EmbeddedSystemNhom1/blob/main/bai5/user/main.c)***
+***File code kết quả: [Link](https://github.com/phamsan1503-ai/BAI-5)***
 
 
 ### 1. Cấu hình UART
@@ -242,4 +242,4 @@ void USART1_IRQHandler(void)
     }
 }
 ```
-
+***Video  kết quả: [Link](https://drive.google.com/drive/folders/1pxEtEL510zTSKQkZHq40Ss9nMOm-HtgT?usp=drive_link)***
